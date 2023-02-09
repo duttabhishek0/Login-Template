@@ -1,7 +1,6 @@
 package com.abhishek.login_screen_template
 
 import androidx.annotation.StringRes
-import kotlin.math.atan
 
 data class AuthenticationState(
     val authenticationMode: AuthenticationMode = AuthenticationMode.SIGN_IN,
@@ -11,17 +10,18 @@ data class AuthenticationState(
     val isLoading: Boolean = false,
     val error: String? = null
 ) {
-  fun isFormValid(): Boolean{
-      return password?.isNotEmpty() == true
-              && email?.isNotEmpty() == true
-              && (authenticationMode == AuthenticationMode.SIGN_IN
-              || passwordRequirements.containsAll(PasswordRequirements.values().toList()))
-  }
+    fun isFormValid(): Boolean {
+        return password?.isNotEmpty() == true
+                && email?.isNotEmpty() == true
+                && (authenticationMode == AuthenticationMode.SIGN_IN
+                || passwordRequirements.containsAll(PasswordRequirements.values().toList()))
+    }
 }
 
-enum class AuthenticationMode{
+enum class AuthenticationMode {
     SIGN_IN, SIGN_UP
 }
+
 enum class PasswordRequirements(
     @StringRes val label: Int
 ) {
