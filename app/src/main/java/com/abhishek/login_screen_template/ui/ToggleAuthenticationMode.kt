@@ -1,4 +1,4 @@
-package com.abhishek.login_screen_template
+package com.abhishek.login_screen_template.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -12,6 +12,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.abhishek.login_screen_template.R
+import com.abhishek.login_screen_template.model.AuthenticationMode
 
 @Composable
 fun ToggleAuthenticationMode(

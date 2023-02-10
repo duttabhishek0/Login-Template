@@ -1,6 +1,7 @@
-package com.abhishek.login_screen_template
+package com.abhishek.login_screen_template.model
 
 import androidx.annotation.StringRes
+import com.abhishek.login_screen_template.R
 
 data class AuthenticationState(
     val authenticationMode: AuthenticationMode = AuthenticationMode.SIGN_IN,

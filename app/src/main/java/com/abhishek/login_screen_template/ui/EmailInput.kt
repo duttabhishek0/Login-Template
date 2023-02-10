@@ -1,4 +1,4 @@
-package com.abhishek.login_screen_template
+package com.abhishek.login_screen_template.ui
 
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.Icon
@@ -11,6 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
+import com.abhishek.login_screen_template.R
 
 @Composable
 fun EmailInput(

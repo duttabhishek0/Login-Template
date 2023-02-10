@@ -1,4 +1,4 @@
-package com.abhishek.login_screen_template
+package com.abhishek.login_screen_template.ui
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.text.KeyboardOptions
@@ -15,7 +15,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
-
+import com.abhishek.login_screen_template.R
 
 @Composable
 fun PassWordInput(

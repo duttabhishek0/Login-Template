@@ -1,4 +1,4 @@
-package com.abhishek.login_screen_template
+package com.abhishek.login_screen_template.model
 
 sealed class AuthenticationEvent {
 
