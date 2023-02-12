@@ -19,9 +19,6 @@ data class AuthenticationState(
     }
 }
 
-enum class AuthenticationMode {
-    SIGN_IN, SIGN_UP
-}
 
 enum class PasswordRequirements(
     @StringRes val label: Int
